@@ -13,4 +13,4 @@ The objective of this project is to build a regression model on the response var
 * **Original Source:** U.S. Current Population Survey (CPS), 1976.
 * **Data Repository:** Hosted by the Boston College Economics Data Archive (maintained by Christopher F. Baum).
 
-In this project, the main focus was to use Stata software completely from data cleaning to training the model. The regression analysis was done and three different models were built and the results of all the models have been discussed in the file `final_analysis` attached with this repository. All of the key findings are included in this file.
+In this project, the main focus was to use Stata software completely from data cleaning to training the model. The regression analysis was done and three different models were built and the results of all the models have been discussed in the file `final_analysis.pdf` attached with this repository. All of the key findings are included in this file.
