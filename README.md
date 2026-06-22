@@ -3,10 +3,19 @@
 # Project Overview
 The objective of this project is to build a regression model on the response variable 'average hourly earnings'.
 
-**Key Components of the Analysis Include:**
+Conducted a comprehensive econometric analysis to identify the key factors influencing hourly wages using the U.S. Current Population Survey (CPS) dataset. Developed and compared multiple Ordinary Least Squares (OLS) regression models to evaluate the impact of education, work experience, tenure, demographic characteristics, occupation, industry, and geographic factors on earnings.
+
+**Key Contributions:**
 - Data Preparation including data cleaning, converting raw dummy variables into categorical variables and then using them in the model.
-- Dopping unnecessary variables for more cleaned data of less dimension.
-- Model Evaluation and diagnostics.
+- Dropping unnecessary variables for cleaned data of less dimension.
+- Built and interpreted three log-linear wage regression models using OLS Regression.
+- Analyzed the effects of  years of education, experience, tenure, gender, marital status, race, urban residence, occupation, industry, and regional variables on wages.
+- Incorporated non-linear relationships through squared terms for experience and tenure to capture diminishing returns and identified wage turning points.
+- Evaluated model performance using R² statistics and statistical significance testing.
+- Performed diagnostic tests to validate OLS assumptions, including normality, homoscedasticity, and independence of residuals.
+- Identified significant wage determinants such as education, work experience, tenure, urban residence, occupation, and gender.
+- Also, identified that only few categories in defined categorical variables had statistical significant impact on wages such as Professional Occupation, Service Industry, and wholesale or retail trade industry.
+- Provided clear and precise interpretation for dummy variables that are included in the models in simple words.
 
   ## Data Source & Documentation
 * **Dataset:** `wage1` (1976 Cross-Section)
@@ -22,3 +31,7 @@ Main files in this repository:
 - stata file with 'dta' extension
 
 Stata will run all of the above process in the do-file after setting the directory in do-file and running it after storing the data in that directory.
+
+**Tools & Techniques:** Stata, Data preparation, Data Analysis, OLS Regression Analysis, Regression Diagnostics, Statistical Modeling, Hypothesis Testing, Data Interpretation.
+
+=============================================================================================================================
